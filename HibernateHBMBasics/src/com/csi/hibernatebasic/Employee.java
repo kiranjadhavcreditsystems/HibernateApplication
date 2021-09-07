@@ -7,6 +7,10 @@ public class Employee {
 	private String empName;
 
 	private double empSalary;
+	
+	private String empEmailId;
+	
+	
 
 	public int getEmpId() {
 		return empId;
@@ -31,12 +35,24 @@ public class Employee {
 	public void setEmpSalary(double empSalary) {
 		this.empSalary = empSalary;
 	}
+	
+	
+
+	public String getEmpEmailId() {
+		return empEmailId;
+	}
+
+	public void setEmpEmailId(String empEmailId) {
+		this.empEmailId = empEmailId;
+	}
 
 	@Override
 	public String toString() {
-		return "Employee [empId=" + empId + ", empName=" + empName + ", empSalary=" + empSalary + "]";
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empSalary=" + empSalary + ", empEmailId="
+				+ empEmailId + "]";
 	}
 
+	
 
 	
 

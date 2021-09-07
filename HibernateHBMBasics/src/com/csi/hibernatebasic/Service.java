@@ -19,8 +19,10 @@ public class Service {
 
 		Employee e1 = new Employee();
 
-		e1.setEmpName("SARIKA");
-		e1.setEmpSalary(4556567.89);
+		e1.setEmpName("MAHESH");
+		e1.setEmpSalary(6565766.89);
+		
+		e1.setEmpEmailId("MAHESH.AHIRE@CSI.COM");
 
 		session.save(e1);
 		transaction.commit();
